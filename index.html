@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="header__logo" href="#"><img src="images/logo.png" alt="logo"></a>
+        <nav class="header__menu">
+          <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Туры</a></li>
+            <li><a href="#">О путешествиях</a></li>
+            <li><a href="#">Туристам</a></li>
+            <li><a href="#">Отзывы</a></li>
+          </ul>
+        </nav>
+       
+        <a class="header__phone" href="tel:70000000000">+7(000)000-00-00</a>
+        <div class="content">
+          <a id="menu-button"></a>
+          <div id="hamburger-menu">
+            <nav>
+              <a href="">Главная</a>
+              <a href="">Туры</a>
+              <a href="">О путешествиях</a>
+              <a href="">Туристам</a>
+              <a href="">Отзывы</a>
+            </nav>
+          </div>
+          <div id="overlay"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  
+
+  <section class="main" style="background-image: url(images/bg.jpg);">
+    <div class="main__wrapper">
+      <div class="container">
+        <div class="main__inner">
+          <div class="main__title" data-aos="zoom-in">Сибирь</div>
+          <div class="main__text">Пешие походы по склонам, горам и реками России</div>
+          <a class="main__btn" data-aos="fade-in"  href="#">Найти поход</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="book">
+    <div class="container">
+      <div class="book__title title">Планируете отправиться в увлекательное путешествие?</div>
+      <div class="book__inner">
+        <div class="form__inner-row">
+          <form>
+            <input class="form-date" type="date">
+            <select class="form-place">
+              <option>Алтай</option>
+              <option>Байкал</option>
+              <option>Камчатка</option>
+              <option>Крым</option>
+            </select>
+            <select class="form-holiday">
+              <option>Пеший поход</option>
+              <option>Конный поход</option>
+              <option>Поход с палатками</option>
+            </select>
+          </form>
+
+        </div>
+        <div class="form__inner-row">
+          <form>
+
+            <input class="form-days" type="text" placeholder="3 дня">
+
+
+            <input type="text" class="js-range-slider" name="my_range" value="" />
+
+            <button class="form-btn" type="submit">Подобрать тур</button>
+          </form>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="info"data-aos="fade-in" data-aos-delay="350">
+    <div class="container">
+      <div class="info__top">
+        <div class="info__top-title title">Бронируйте прямо сейчас!</div>
+        <div class="info__top-text text">На проработку крутой поездки могут уйти дни и дажеь недели. Не тратьте время,
+          выберите маршрут
+          от AltaiTravel.</div>
+        <iframe width="700" height="315" src="https://www.youtube.com/embed/hZA57Bkkj6g?start=60" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="travel">
+    <div class="container">
+      <div class="travel__top">
+        <div class="travel__top-title title">Аутентичные путешествия от экспертов по Алтаю</div>
+        <div class="travel__top-text text">Отправьтесь в настоящее приключение не потратив ни минуты на планирование
+          путешествия.
+        </div>
+      </div>
+      <div class="travel__inner">
+        <div class="travel__inner-item" style="background-image: url(images/item1.jpg);" data-aos="zoom-in">
+          <div class="travel__inner-overlay">
+            <div class="travel__inner-overlay__info overlay__info">
+              <div class="overlay__info-title">Рафтинг</div>
+              <div class="overlay__info-text">Ваша смелость будет вознаграждена таким приливом адреналина который
+                можно получить только от близкого контакта с природой</div>
+            </div>
+          </div>
+        </div>
+        <div class="travel__inner-item" style="background-image: url(images/item-3.jpg);"data-aos="zoom-in">
+          <div class="travel__inner-overlay">
+            <div class="travel__inner-overlay__info overlay__info">
+              <div class="overlay__info-title">Конные походы</div>
+              <div class="overlay__info-text">Только инструктора расскажут вам о тайнах общения с лошадью и как стать с
+                ней одной командой</div>
+            </div>
+          </div>
+        </div>
+        <div class="travel__inner-item" style="background-image: url(images/item-2.jpg);"data-aos="zoom-in">
+          <div class="travel__inner-overlay">
+            <div class="travel__inner-overlay__info overlay__info">
+              <div class="overlay__info-title">Кемпинг</div>
+              <div class="overlay__info-text">Ваша смелость будет вознаграждена таким приливом адреналина который
+                можно получить только от близкого контакта с природой</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+  <section class="contacts">
+    <div class="container">
+      <a href="#" class="contacts__logo"><img src="images/logo-2.png" alt=""></a>
+      <div class="contacts__inner">
+        <div class="contacts__inner-left  item-left">
+          <div class="item-left__title">Контакты</div>
+          <div class="item-left__info info">
+            <div class="info-left">
+              <div class="info-left__city">г.Москва</div>
+              <ul>
+                <li>ул.Улица улица, д.1</li>
+                <li> +7 (000)000 00 01</li>
+                <li>info@siberiatravel.ru</li>
+              </ul>
+            </div>
+            <div class="info-right">
+              <div class="info-right__city">г.Санкт-Петербург</div>
+              <ul>
+                <li>ул.Улица улица, д.1, оф.1</li>
+                <li>+7 (000)000 00 01</li>
+                <li>info@siberiatravel.ru</li>
+              </ul>
+            </div>
+
+          </div>
+          <a class="item-left__social" href="#">
+            <ul>
+              <li><img src="images/inst.svg" alt=""></li>
+              <li><img src="images/whatsapp.svg" alt=""></li>
+              <li><img src="images/fb.svg" alt=""></li>
+
+            </ul>
+          </a>
+        </div>
+
+        <div class="contacts__inner-right item-right">
+          <div class="item-right__info">
+            <div class="item-right__title">Услуги</div>
+            <div class="item-right__list">
+              <ul>
+                <li><a href="#">Расписание</a></li>
+                <li><a href="#">Виды походов</a></li>
+                <li><a href="#">Направления</a></li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Прокат</a></li>
+                <li><a href="#">Интернет-магазин</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="item-right__info">
+            <div class="item-right__title">Туристам</div>
+            <div class="item-right__list">
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Страхование</a></li>
+                <li><a href="#">Бронирование</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="item-right__info">
+            <div class="item-right__title">Компания</div>
+            <div class="item-right__list">
+              <ul>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Инструкторы</a></li>
+                <li><a href="#">Клубная карта</a></li>
+                <li><a href="#">Сотруднтчество</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="item-right__info bottom">
+            <div class="item-right__title">Популярные направления</div>
+            <div class="item-right__list bottom">
+              <ul>
+                <li><a href="#">Карелия</a></li>
+                <li><a href="#">Алтай</a></li>
+                <li><a href="#">Камчатка</a></li>
+                <li><a href="#">Урал</a></li>
+                <li><a href="#">Байкал</a></li>
+                <li><a href="#">Крым</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-text">Туристический клуб "Sibiria Travel". Все права защищены. </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
